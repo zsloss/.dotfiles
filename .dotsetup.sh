@@ -14,8 +14,6 @@ echo "Creating $olddir..."
 mkdir -p $olddir
 echo "Success"
 
-cd $dir
-
 for file in $files; do
 	echo "Backing up old $file..."
 	mv ~/.$file $olddir/
