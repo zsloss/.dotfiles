@@ -1,16 +1,16 @@
 " vimrc file for Zachary Sloss
 
-set nocompatible	
+set nocompatible
 
-syntax enable		
+syntax enable
 
-set number			
+set number
 
 " indent spacing
 set expandtab
-set softtabstop=4		
-set shiftwidth=4	
+set softtabstop=4
+set shiftwidth=4
 
 " auto indentation
-set autoindent		
+set autoindent
 filetype plugin indent on
