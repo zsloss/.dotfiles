@@ -1,8 +1,16 @@
-set nocompatible	" turn off vi compatibility
+" vimrc file for Zachary Sloss
 
-syntax enable		" syntax highlighting
+set nocompatible	
 
-set number			" line numbers
+syntax enable		
 
-set tabstop=4		" shorten tab spacing
-set shiftwidth=4	" shorten indent spacing
+set number			
+
+" indent spacing
+set expandtab
+set softtabstop=4		
+set shiftwidth=4	
+
+" auto indentation
+set autoindent		
+filetype plugin indent on
