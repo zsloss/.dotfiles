@@ -2,6 +2,8 @@
 
 set nocompatible
 
+execute pathogen#infect()
+
 syntax enable
 
 set number
